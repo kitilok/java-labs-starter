@@ -27,7 +27,7 @@ public class SampleRegistry {
     public boolean contains(SampleId id){
         return samples.containsKey(id);
     }
-
+git
     public int size(){
         return samples.size();
     }

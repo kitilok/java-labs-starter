@@ -25,8 +25,8 @@ public class SampleId {
         return observationNumber;
     }
 
-@Override
-public boolean equals(Object obj){
+    @Override
+    public boolean equals(Object obj){
         if (this == obj){
             return true;
         }
@@ -39,10 +39,10 @@ public boolean equals(Object obj){
 
         return observationNumber == other.observationNumber
                 && datasetname.equals(other.datasetname);
-}
+    }
 
-@Override
-public int hashCode(){
-        return Objects.hash(datasetname, observationNumber);
-}
+    @Override
+    public int hashCode(){
+            return Objects.hash(datasetname, observationNumber);
+    }
 }
